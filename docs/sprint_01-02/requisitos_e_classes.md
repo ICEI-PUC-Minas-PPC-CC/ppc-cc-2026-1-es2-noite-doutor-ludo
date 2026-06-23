@@ -205,4 +205,4 @@ Contratos que definem como o domínio se comunica com o mundo exterior.
 
 ## 3. Diagrama de Classes
 
-![Diagrama de Classes](img/diagrama_de_classes.png)
+![Diagrama de Classes](../images/diagrama_de_classes.png)
