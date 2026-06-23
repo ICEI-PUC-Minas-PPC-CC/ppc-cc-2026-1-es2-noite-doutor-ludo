@@ -86,7 +86,7 @@ Para a construção e execução do MVP, planeja-se a utilização das seguintes
 
 ---
 
-# 💻 Código
+## 💻 Código
 
 A pasta `src/` concentrará os arquivos de implementação do MVP.
 
