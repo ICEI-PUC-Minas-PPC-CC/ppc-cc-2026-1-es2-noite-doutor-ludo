@@ -1,50 +1,97 @@
-# TÍTULO DO PROJETO
+<p align="center">
+  <img src="docs/images/logo.png" alt="Doutor Ludo Logo" width="200"/>
+</p>
 
-`CURSO`
+# 🎲 Doutor Ludo
 
-`DISCIPLINA`
+O **Doutor Ludo** é uma plataforma web de aluguel de jogos de tabuleiro que facilita o acesso a um catálogo variado de jogos, proporcionando comodidade com entrega e coleta porta-a-porta. O sistema combina a locação com a base de conhecimento *WikiLudo* e um sistema de reservas.
 
-`SEMESTRE`
+O objetivo principal deste repositório é o desenvolvimento e a validação do Produto Mínimo Viável (MVP) do sistema, consolidando as práticas de Engenharia de Software. O foco da implementação está em viabilizar o fluxo central de negócios da plataforma.
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+---
 
-## Integrantes
+## 🎓 Informações Acadêmicas
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+| Contexto | Detalhes |
+| :--- | :--- |
+| **Curso** | Ciência da Computação (7º Semestre) |
+| **Disciplina** | Engenharia de Software II |
+| **Período** | 1º Semestre de 2026 |
+| **Professor / Orientador** | Diego Roberto Gonçalves de Pontes |
 
-## Orientador
+### 👥 Integrantes do Grupo
 
-* Nome completo do professor 1
+* Gabriel Henrique Custodio
+* João Eduardo Lino Quinteiro
+* Jules Eloísio Moraes Lima
+* Kleberson Crystyan de Lima
+* Vitor Hugo Granato Moreira do Prado
 
-## Instruções de utilização
+---
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+## 💻 Tecnologias Planejadas
 
-# Documentação
+Para a construção e execução do MVP, planeja-se a utilização das seguintes tecnologias:
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=black)
+
+![CSS3](https://img.shields.io/badge/CSS3-663399?style=for-the-badge&logo=css&logoColor=white&labelColor=black)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=black)
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+│   README.md
+│
+├───docs
+│   ├───images
+│   │       diagrama_de_classes.png
+│   │       logo.png
+│   │
+│   ├───sprint_00_warmup
+│   │       warmup.md
+│   │
+│   ├───sprint_01-02
+│   │       requisitos_e_classes.md
+│   │
+│   ├───sprint_03
+│   │       arquitetura.md
+│   │
+│   └───sprint_04
+│           integracao_planejamento_mvp.md
+│
+└───src
+```
+
+---
+
+## 📖 Instruções de uso
+
+> As instruções de instalação, execução e configuração serão adicionadas após a criação do MVP.
+
+---
+
+## Documentação
 
 <ol>
-<li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
-<li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
-<li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
-<li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
-<li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
-<li><a href="docs/06-Template Padrão da Aplicação.md"> Template Padrão da Aplicação</a></li>
-<li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
-<li><a href="docs/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
-<li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="docs/10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a></li>
-<li><a href="docs/11-Registro de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
-<li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
-<li><a href="docs/13-Referências.md"> Referências</a></li>
+<li><a href="docs/sprint_00_warmup/warmup.md"> Warmup</a></li>
+<li><a href="docs/sprint_01-02/requisitos_e_classes.md"> Sprint 1 - Análise dos Requisitos e Identificação das Classes</a></li>
+<li><a href="docs/sprint_01-02/requisitos_e_classes.md"> Sprint 2 - Modelagem de Classes e Relacionamentos</a></li>
+<li><a href="docs/sprint_03/arquitetura.md"> Sprint 3 - Definição da Arquitetura do Sistema</a></li>
+<li><a href="docs/sprint_04/integracao_planejamento_mvp.md"> Sprint 4 - Organização, Integração e Planejamento do MVP</a></li>
 </ol>
 
-# Código
+---
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+# 💻 Código
 
-# Apresentação
+A pasta `src/` concentrará os arquivos de implementação do MVP.
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+---
+
+<p align="center">
+  <sub>&copy; 2026 Doutor Ludo. Desenvolvido para a disciplina de Engenharia de Software II — PUC Minas.</sub>
+</p>
