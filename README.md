@@ -174,7 +174,7 @@ Com o backend em execução, abra o gerenciador de arquivos do seu sistema opera
 
 ## 💻 Código
 
-A pasta `src/` concentrará os arquivos de implementação do MVP.
+A pasta [`src/`](./src) concentra todos os arquivos de implementação do MVP.
 
 ---
 
