@@ -29,7 +29,7 @@ O objetivo principal deste repositório é o desenvolvimento e a validação do 
 
 ---
 
-## 💻 Tecnologias Planejadas
+## 💻 Tecnologias Utilizadas
 
 Para a construção e execução do MVP, planeja-se a utilização das seguintes tecnologias:
 
@@ -38,6 +38,12 @@ Para a construção e execução do MVP, planeja-se a utilização das seguintes
 ![CSS3](https://img.shields.io/badge/CSS3-663399?style=for-the-badge&logo=css&logoColor=white&labelColor=black)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=black)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=black)
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=black)
+
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white&labelColor=black)
 
 ---
 
