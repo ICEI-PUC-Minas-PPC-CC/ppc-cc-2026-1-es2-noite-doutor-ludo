@@ -31,7 +31,7 @@ JOGO_FIXO_CATALOGO = Jogo(
     min_jogadores=2,
     max_jogadores=2,
     preco_diaria=15.90,
-    imagem_url="",
+    imagem_url="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2026-1-es2-noite-doutor-ludo/refs/heads/main/docs/images/chess.jpg",
     disponivel=True,
 )
 
