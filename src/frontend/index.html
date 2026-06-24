@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doutor Ludo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <img src="assets/logo.png" alt="Doutor Ludo" class="app-logo">
+  </header>
+
+  <!-- ===================== TRILHO DE PROGRESSO ===================== -->
+  <nav class="trilho" id="trilho">
+    <div class="etapa ativa" data-passo="1">
+      <div class="etapa-marcador">1</div>
+      <span class="etapa-rotulo">Catálogo</span>
+    </div>
+    <div class="etapa-linha-wrap">
+      <div class="etapa-linha"><i id="linha-1"></i></div>
+    </div>
+    <div class="etapa" data-passo="2">
+      <div class="etapa-marcador">2</div>
+      <span class="etapa-rotulo">Checkout</span>
+    </div>
+    <div class="etapa-linha-wrap">
+      <div class="etapa-linha"><i id="linha-2"></i></div>
+    </div>
+    <div class="etapa" data-passo="3">
+      <div class="etapa-marcador">3</div>
+      <span class="etapa-rotulo">Confirmação</span>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===================== TELA 1: CATÁLOGO / DETALHES DO JOGO ===================== -->
+    <section class="tela visivel" id="tela-catalogo">
+      <div class="card">
+        <div id="conteudo-catalogo" class="jogo-grid">
+          <p>Carregando catálogo...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TELA 2: CHECKOUT ===================== -->
+    <section class="tela" id="tela-checkout">
+      <div class="card">
+        <div class="erro-msg" id="erro-checkout"></div>
+
+        <form id="form-checkout">
+          <fieldset>
+            <legend>Período do aluguel</legend>
+            <div class="campos-grid">
+              <div>
+                <label for="data-inicio">Data de início</label>
+                <input type="date" id="data-inicio" name="data_inicio" required>
+              </div>
+              <div>
+                <label for="data-fim">Data de devolução</label>
+                <input type="date" id="data-fim" name="data_fim" required>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Endereço de entrega</legend>
+            <div class="campos-grid">
+              <div class="campo-full">
+                <label for="rua">Rua</label>
+                <input type="text" id="rua" placeholder="Avenida Padre Cletus Francis Cox" required>
+              </div>
+              <div>
+                <label for="numero">Número</label>
+                <input type="text" id="numero" placeholder="1661" required>
+              </div>
+              <div>
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" placeholder="Country Club" required>
+              </div>
+              <div>
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" placeholder="Poços de Caldas" required>
+              </div>
+              <div>
+                <label for="estado">Estado (UF)</label>
+                <input type="text" id="estado" placeholder="MG" maxlength="2" required>
+              </div>
+              <div class="campo-full">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" placeholder="37714-620" required>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Método de pagamento</legend>
+            <div class="metodos-pagamento">
+              <label class="metodo-carta selecionado" id="carta-pix">
+                <input type="radio" name="metodo_pagamento" value="PIX" checked>
+                <span class="nome-metodo">PIX</span>
+                <span class="submetodo">Aprovação imediata</span>
+              </label>
+              <label class="metodo-carta" id="carta-cartao">
+                <input type="radio" name="metodo_pagamento" value="CARTAO">
+                <span class="nome-metodo">Cartão</span>
+                <span class="submetodo">Crédito ou débito</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="resumo" id="resumo-pedido">
+            <!-- preenchido via JS -->
+          </div>
+
+          <div class="acoes-rodape">
+            <button type="button" class="botao botao-secundario" id="btn-voltar">Voltar</button>
+            <button type="submit" class="botao botao-primario">Finalizar pedido</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== TELA 3: PROCESSANDO PAGAMENTO ===================== -->
+    <section class="tela" id="tela-processando">
+      <div class="card processando">
+        <div class="spinner"></div>
+        <p>Processando pagamento com o gateway...</p>
+      </div>
+    </section>
+
+    <!-- ===================== TELA 4: RESULTADO (SUCESSO / RECUSA) ===================== -->
+    <section class="tela" id="tela-resultado">
+      <div class="card resultado" id="conteudo-resultado">
+        <!-- preenchido via JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    © 2026 Doutor Ludo. Desenvolvido para a disciplina de Engenharia de Software II — PUC Minas.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
