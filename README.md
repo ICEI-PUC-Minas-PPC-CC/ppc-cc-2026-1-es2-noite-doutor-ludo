@@ -110,7 +110,53 @@ Para a construção e execução do MVP, planeja-se a utilização das seguintes
 
 ## 📖 Instruções de uso
 
-> As instruções de instalação, execução e configuração serão adicionadas após a criação do MVP.
+Siga os passos abaixo para clonar o repositório, instalar as dependências e executar o MVP localmente.
+
+### 🔧 Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina o [Git](https://git-scm.com) e o [Python 3.10+](https://www.python.org/).
+
+### Executando o Backend
+
+1. Abra o terminal do seu computador e clone este repositório:
+
+   ```bash
+   git clone https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2026-1-es2-noite-doutor-ludo.git
+   ```
+
+2. Navegue até o diretório do backend da aplicação:
+
+   ```bash
+   cd src/backend
+   ```
+
+3. Crie o seu ambiente virtual:
+
+   ```bash
+   python -m venv .venv
+   ```
+
+4. Ative o ambiente virtual:
+
+   * No Windows (Prompt de Comando): `.venv\Scripts\activate`
+   * No Linux ou macOS: `source .venv/bin/activate`
+
+5. Instale as dependências necessárias listadas no projeto:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+6. Inicialize o servidor da API FastAPI:
+
+   ```bash
+   python main.py
+   ```
+
+O servidor backend iniciará na porta `8000`. Você pode conferir a documentação automática interativa gerada pelo Swagger acessando `http://127.0.0.1:8000/docs`.
+
+### Executando o Frontend
+
+Com o backend em execução, abra o gerenciador de arquivos do seu sistema operacional, navegue até a pasta `src/frontend/` e abra o arquivo `index.html` em qualquer navegador web.
 
 ---
 
