@@ -44,10 +44,12 @@ Para a construção e execução do MVP, planeja-se a utilização das seguintes
 ## 📁 Estrutura do Projeto
 
 ```
+│   .gitignore
 │   README.md
 │
 ├───docs
 │   ├───images
+│   │       chess.jpg
 │   │       diagrama_de_classes.png
 │   │       logo.png
 │   │
@@ -64,6 +66,38 @@ Para a construção e execução do MVP, planeja-se a utilização das seguintes
 │           integracao_planejamento_mvp.md
 │
 └───src
+    ├───backend
+    │   │   main.py
+    │   │   requirements.txt
+    │   │
+    │   ├───adapters
+    │   │   │   __init__.py
+    │   │   │
+    │   │   ├───inbound
+    │   │   │       http_controller.py
+    │   │   │       __init__.py
+    │   │   │
+    │   │   └───outbound
+    │   │           memory_repository.py
+    │   │           mock_adapters.py
+    │   │           __init__.py
+    │   │
+    │   ├───domain
+    │   │       entities.py
+    │   │       services.py
+    │   │       __init__.py
+    │   │
+    │   └───ports
+    │           outputs.py
+    │           __init__.py
+    │
+    └───frontend
+        │   app.js
+        │   index.html
+        │   style.css
+        │
+        └───assets
+                logo.png
 ```
 
 ---
