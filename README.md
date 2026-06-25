@@ -168,6 +168,7 @@ Com o backend em execução, abra o gerenciador de arquivos do seu sistema opera
 <li><a href="docs/sprint_01-02/requisitos_e_classes.md"> Sprint 2 - Modelagem de Classes e Relacionamentos</a></li>
 <li><a href="docs/sprint_03/arquitetura.md"> Sprint 3 - Definição da Arquitetura do Sistema</a></li>
 <li><a href="docs/sprint_04/integracao_planejamento_mvp.md"> Sprint 4 - Organização, Integração e Planejamento do MVP</a></li>
+<li><a href="docs/sprint_05/justificativa_implementacao.md"> Sprint 5 - Implementação do MVP</a></li>
 </ol>
 
 ---
